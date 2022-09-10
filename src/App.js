@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import MobileHeader from './components/header/MobileHeader.jsx'
+import Body from './components/body/Body.jsx'
 
-class App extends React.Component {
-  constructor(props){
-    super(props);
-    }
+function App () {
 
-  render(){
-  return (
+
+return (
     <div className='app'>
-    <h1> Hello World </h1>
+    <MobileHeader />
+    <br />
+    <Body />
     </div>
-  );
-  }
+  )
 }
 
 export default App;
