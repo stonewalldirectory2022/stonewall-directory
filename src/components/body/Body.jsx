@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import TakeAction from './Home/takeAction/TakeAction.jsx'
 import FindGroup from './Home/FindGroup/FindGroup.jsx'
 import StayConnected from './Home/StayConnected/StayConnected.jsx'
-import PageOne from './Questionnaire/PageOne.jsx'
+import Questionnaire from './Questionnaire/Questionnaire.jsx'
 
 function Body(){
-  const [page, setPage] = useState('one')
+  const [page, setPage] = useState('questionnaire')
   if(page === 'home') {
   return(
   <div className="body">
@@ -14,9 +14,9 @@ function Body(){
     <StayConnected />
   </div>
   )
-  } else if(page === 'one'){
+  } else if(page === 'questionnaire'){
     return(
-    <PageOne page={page} setPage={setPage}/>
+    <Questionnaire page={page} setPage={setPage}/>
     )
   }
 }
