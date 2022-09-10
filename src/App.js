@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MobileHeader from './components/header/MobileHeader.jsx'
 import Body from './components/body/Body.jsx'
 

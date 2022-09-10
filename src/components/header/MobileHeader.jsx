@@ -6,8 +6,7 @@ function MobileHeader(){
   <div className="Mobile-header">
     <GiHamburgerMenu className="header-logo"/>
     <div className="title">
-    <h1> NATIONAL DIRECTORY <br /> OF LGBTQ+ DEMOCRATS</h1>
-    <h2> STONEWALL DEMOCRATIC CLUB</h2>
+    <h1> STONEWALL DIRECTORY</h1>
     </div>
   </div>
   )
